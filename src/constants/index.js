@@ -241,7 +241,7 @@ export const mySocials = [
     id: 2,
     name: "LinkedIn",
     icon: "/assets/socials/linkedIn.svg",
-    href: "https://www.linkedin.com/in/caio-montee/", // Coloque seu link real aqui
+    href: "https://www.linkedin.com/in/caio-monte/", // Coloque seu link real aqui
   },
   {
     id: 3,
