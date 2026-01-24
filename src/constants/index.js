@@ -230,3 +230,23 @@ export const reviews = [
     img: "https://robohash.org/eve",
   },
 ];
+export const mySocials = [
+  {
+    id: 1,
+    name: "WhatsApp",
+    icon: "public/assets/socials/whatsApp.svg", // Ajuste o caminho se necessário
+    href: "https://wa.me/5527996569076",
+  },
+  {
+    id: 2,
+    name: "LinkedIn",
+    icon: "public/assets/socials/linkedIn.svg",
+    href: "https://www.linkedin.com/in/caio-montee/", // Coloque seu link real aqui
+  },
+  {
+    id: 3,
+    name: "GitHub",
+    icon: "public/assets/socials/icons8-github.svg",
+    href: "https://github.com/caiomontee",
+  },
+];
