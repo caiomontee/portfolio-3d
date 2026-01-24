@@ -1,12 +1,11 @@
-import React from "react";
-import Navbar from "./sections/navbar";
-import Hero from "./sections/Hero";
 import About from "./sections/About";
-import Projects from "./sections/Projects";
-import Experiences from "./sections/Experiences";
-import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
+import Experiences from "./sections/Experiences";
 import Footer from './sections/Footer';
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
+import Projects from "./sections/Projects";
+import Testimonial from "./sections/Testimonial";
 
 const App = () => {
   return (
@@ -18,7 +17,7 @@ const App = () => {
       <Experiences />
       <Testimonial />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
