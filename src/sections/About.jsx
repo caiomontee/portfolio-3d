@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/FrameWorks";
+import { Globe } from "../components/globe";
 
 const About = () => {
   const grid2Container = useRef();
@@ -17,10 +17,9 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
+            <p className="headtext">Olá, sou Caio Monte Belo</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              Engenheiro em formação focado em otimização de processos e interfaces inteligentes. Com experiência prática em automação e análise de dados, busco integrar tecnologias emergentes, como IA e soluções descentralizadas, para construir um futuro prático.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -79,9 +78,9 @@ const About = () => {
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
+            <p className="headtext">Fuso horário</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              Estou baseado em Marte e aberto a trabalho remoto em qualquer lugar do mundo.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -92,7 +91,7 @@ const About = () => {
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
-              Do you want to start a project together?
+              Quer iniciar um projeto?
             </p>
             <CopyEmailButton />
           </div>
@@ -100,10 +99,10 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
+            <p className="headText">Tecnologias</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              Trabalho em diversas linguagens, frameworks e ferramentas que
+              me permitem construir aplicações robustas e escaláveis.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

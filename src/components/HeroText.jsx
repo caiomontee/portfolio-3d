@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  const words = ["Secure", "Modern", "Scalable"];
+  const words = ["Automações", "WebSites", "ChatBots"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -18,7 +18,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Ali
+          Olá, sou o Caio
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Developer <br /> Dedicated to Crafting
+            Desenvolvedor <br /> Focado em Criar
           </motion.p>
           <motion.div
             variants={variants}
@@ -48,7 +48,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Solutions
+            Digitais e Eficientes
           </motion.p>
         </div>
       </div>
@@ -61,7 +61,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Ali
+          Olá, sou o Caio
         </motion.p>
         <div>
           <motion.p
@@ -71,7 +71,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Building
+            Construindo
           </motion.p>
           <motion.div
             variants={variants}
@@ -91,7 +91,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Applications
+            Digitais e Eficientes
           </motion.p>
         </div>
       </div>

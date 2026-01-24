@@ -30,16 +30,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_qm3d4bn",
+        "template_c3n3p0b",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Caio",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "caiomontebelo@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "5k_H4f9kjr4gYyl1S"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -62,16 +62,15 @@ const Contact = () => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
+          <h2 className="text-heading">Vamos Conversar?</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Se você deseja criar um novo site, aprimorar sua plataforma existente ou dar vida a um projeto exclusivo, estou aqui para ajudar.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label htmlFor="name" className="feild-label">
-              Full Name
+              Nome Completo
             </label>
             <input
               id="name"
@@ -103,7 +102,7 @@ const Contact = () => {
           </div>
           <div className="mb-5">
             <label htmlFor="message" className="feild-label">
-              Message
+              Mensagem
             </label>
             <textarea
               id="message"
@@ -111,7 +110,7 @@ const Contact = () => {
               type="text"
               rows="4"
               className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
+              placeholder="Compartilhe suas ideias"
               autoComplete="message"
               value={formData.message}
               onChange={handleChange}
