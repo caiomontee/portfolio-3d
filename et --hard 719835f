@@ -1,0 +1,26 @@
+[33m6155d2f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Fix: finalizando navegação e ajustes de z-index
+[33mbd9da1d[m Fix: responsividade do modal de detalhes e links externos
+[33m91df680[m Fix: ajustando texto e responsividade do Hero para mobile
+[33m52c54cd[m project image fix
+[33m719835f[m Feat: links do footer abrindo em nova aba
+[33m32cdb77[m Fix: corrigindo caminhos das imagens removendo public
+[33m81fdad2[m Fix: corrigindo import do ParallaxBackground no Hero
+[33m5f8943e[m Fix: corrigindo import do Globe para maiusculo
+[33mb02688f[m Fix: corrigindo import de FrameWorks no About
+[33m871d184[m Fix: corrigindo import do Navbar para maiusculo
+[33me01d980[m Fix: adicionando mySocials e corrigindo build
+[33m5345dfb[m Fix: adicionando dependencias do postcss e tailwind
+[33mb4df2d6[m Versão inicial
+[33maa1b6d9[m Update README.md
+[33m2d2e187[m Update README.md
+[33m2af7cab[m Remove node_modules
+[33m098386b[m Update .gitignore
+[33m0f38346[m Create README.md
+[33m43b5e19[m Add Footer Section
+[33m2bc5480[m Add Contact section
+[33m3c064bf[m Add Testimonial section
+[33m4248e39[m Add Experience Section
+[33mc2973d4[m Add Projects to App.jsx
+[33m908b387[m Add Frameworks to About.jsx
+[33m41bb7cd[m Add gitignore
+[33m791bdf9[m first commit
