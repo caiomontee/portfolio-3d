@@ -12,22 +12,22 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "public/assets/projects/PAGE [atlantica-ebikes-store.vercel.app].png",
+    image: "/assets/projects/PAGE [atlantica-ebikes-store.vercel.app].png",
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: "public/assets/logos/html5.svg",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
         name: "CSS",
-        path: "public/assets/logos/css3.svg",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
         name: "Java Script",
-        path: "public/assets/logos/javascript.svg",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
@@ -44,27 +44,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "public/assets/projects/GeoLocProject.png",
+    image: "/assets/projects/GeoLocProject.png",
     tags: [
       {
         id: 1,
         name: "NodeJs",
-        path: "public/assets/logos/nodejs-icon.svg",
+        path: "/assets/logos/nodejs-icon.svg",
       },
       {
         id: 2,
         name: "Java Script",
-        path: "public/assets/logos/javascript.svg",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
         name: "Render",
-        path: "public/assets/logos/Render logomark - White.svg",
+        path: "/assets/logos/Render logomark - White.svg",
       },
       {
         id: 4,
         name: "Telegram API",
-        path: "public/assets/logos/telegram-icon.svg",
+        path: "/assets/logos/telegram-icon.svg",
       },
     ],
   },
@@ -81,27 +81,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "public/assets/projects/Previsão do Tempo - [previsao-do-tempo-qjtq.vercel.app].png",
+    image: "/assets/projects/Previsão do Tempo - [previsao-do-tempo-qjtq.vercel.app].png",
     tags: [
       {
         id: 1,
         name: "Java Script",
-        path: "public/assets/logos/javascript.svg",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
         name: ".HTML",
-        path: "public/assets/logos/html5.svg",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
         name: "CSS",
-        path: "public/assets/logos/css3.svg",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
         name: "Openweather API",
-        path: "public/assets/logos/openweather-svgrepo-com.svg",
+        path: "/assets/logos/openweather-svgrepo-com.svg",
       },
     ],
   },
@@ -118,27 +118,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "public/assets/projects/Beforever.png",
+    image: "/assets/projects/Beforever.png",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "public/assets/logos/react.svg",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
         name: "HTML",
-        path: "public/assets/logos/html5.svg",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 3,
         name: "CSS",
-        path: "public/assets/logos/css3.svg",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
         name: "Java Script",
-        path: "public/assets/logos/javascript.svg",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
@@ -234,19 +234,19 @@ export const mySocials = [
   {
     id: 1,
     name: "WhatsApp",
-    icon: "public/assets/socials/whatsApp.svg", // Ajuste o caminho se necessário
+    icon: "/assets/socials/whatsApp.svg", // Ajuste o caminho se necessário
     href: "https://wa.me/5527996569076",
   },
   {
     id: 2,
     name: "LinkedIn",
-    icon: "public/assets/socials/linkedIn.svg",
+    icon: "/assets/socials/linkedIn.svg",
     href: "https://www.linkedin.com/in/caio-montee/", // Coloque seu link real aqui
   },
   {
     id: 3,
     name: "GitHub",
-    icon: "public/assets/socials/icons8-github.svg",
+    icon: "/assets/socials/icons8-github.svg",
     href: "https://github.com/caiomontee",
   },
 ];
