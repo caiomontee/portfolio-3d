@@ -81,7 +81,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "public/assets/projects/previsao-website.png",
+    image: "/assets/projects/previsao-website.png",
     tags: [
       {
         id: 1,
