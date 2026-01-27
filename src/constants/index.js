@@ -10,7 +10,7 @@ export const myProjects = [
       "Organização das informações dos produtos com hierarquia visual clara, evidenciando desempenho, autonomia e componentes.",
       "Criação de uma landing page de vitrine de produtos, voltada para navegação rápida e boa experiência do usuário.",
     ],
-    href: "",
+    href: "https://atlantica-ebikes-store.vercel.app/",
     logo: "",
     image: "/assets/projects/ebikes-store.png",
     tags: [
@@ -42,7 +42,7 @@ export const myProjects = [
       "Otimização de meta-tags (Open Graph) para garantir pré-visualizações convincentes e realistas ao compartilhar o link em mensageiros.",
       "Arquitetura no Render.com com UptimeRobot para mitigação de 'cold start', garantindo disponibilidade imediata na coleta de dados.",
     ],
-    href: "",
+    href: "https://www.linkedin.com/posts/caio-monte_bom-dia-pessoal-tudo-certo-por-a%C3%AD-na-semana-activity-7419410758813442048-aypE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT4_XIBluF5MwU1ckpIGvJcQmtZtrO0nFc",
     logo: "",
     image: "/assets/projects/GeoLocProject.png",
     tags: [
@@ -79,7 +79,7 @@ export const myProjects = [
       "Desenvolvimento de interface responsiva e adaptável (Mobile-First) utilizando CSS3 Flexbox e Grid Layout.",
       "Implementação de tratamento de erros para validação de input de usuários e falhas de requisição HTTP.",
     ],
-    href: "",
+    href: "https://previsao-do-tempo-qjtq.vercel.app/",
     logo: "",
     image: "/assets/projects/previsao-website.png",
     tags: [
@@ -116,7 +116,7 @@ export const myProjects = [
       "Aplicação de princípios de Acessibilidade Web (WCAG), priorizando tipografia legível, alto contraste e navegação intuitiva para o público 60+.",
       "Utilização de React Hooks (useState/useEffect) para gerenciamento de estado dinâmico nas interações de chat e feed de eventos.",
     ],
-    href: "",
+    href: "https://drive.google.com/file/d/17Fj3EnkMs1HkShB4YPuVcHV_XgiHALjK/view",
     logo: "",
     image: "/assets/projects/Beforever.png",
     tags: [
