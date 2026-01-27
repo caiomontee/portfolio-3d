@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/PAGE [atlantica-ebikes-store.vercel.app].png",
+    image: "/assets/projects/ebikes-store.png",
     tags: [
       {
         id: 1,
@@ -81,7 +81,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/Previsão do Tempo - [previsao-do-tempo-qjtq.vercel.app].png",
+    image: "public/assets/projects/previsao-website.png",
     tags: [
       {
         id: 1,

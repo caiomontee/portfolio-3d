@@ -1,5 +1,5 @@
-import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
+import { FlipWords } from "./FlipWords";
 
 const HeroText = () => {
   const words = ["Automações", "WebSites", "ChatBots"];
@@ -9,7 +9,8 @@ const HeroText = () => {
   };
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
-      {/* Desktop View */}
+
+      {/* --- DESKTOP VIEW (Mantido intacto) --- */}
       <div className="flex-col hidden md:flex c-space">
         <motion.h1
           className="text-4xl font-medium"
@@ -52,10 +53,11 @@ const HeroText = () => {
           </motion.p>
         </div>
       </div>
-      {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
+
+      {/* --- MOBILE VIEW (Corrigido e Ajustado) --- */}
+      <div className="flex flex-col items-center space-y-6 md:hidden">
         <motion.p
-          className="text-4xl font-medium"
+          className="text-3xl font-medium" // Reduzi levemente para harmonia
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -63,29 +65,36 @@ const HeroText = () => {
         >
           Olá, sou o Caio
         </motion.p>
-        <div>
+
+        <div className="flex flex-col items-center w-full px-2">
+          {/* Texto corrigido para igualar ao Desktop */}
           <motion.p
-            className="text-5xl font-black text-neutral-300"
+            className="text-3xl font-medium text-center text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Construindo
+            Desenvolvedor <br /> Focado em Criar
           </motion.p>
+
           <motion.div
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.5 }}
+            className="py-2" // Espaçamento extra para não cortar animação
           >
+            {/* Fonte reduzida para 4xl para caber "Automações" */}
             <FlipWords
               words={words}
-              className="font-bold text-white text-7xl"
+              className="font-black text-white text-4xl leading-tight"
             />
           </motion.div>
+
+          {/* Correção do typo 'neutral300' para 'neutral-300' */}
           <motion.p
-            className="text-4xl font-black text-neutral300"
+            className="text-2xl font-bold text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -95,6 +104,7 @@ const HeroText = () => {
           </motion.p>
         </div>
       </div>
+
     </div>
   );
 };

@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { motion } from "motion/react";
+import { useState } from "react";
 function Navigation() {
   return (
     <ul className="nav-ul">
@@ -10,17 +10,17 @@ function Navigation() {
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#about">
-          About
+          Sobre
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#work">
-          Work
+          Experiências
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#contact">
-          Contact
+          Contato
         </a>
       </li>
     </ul>
